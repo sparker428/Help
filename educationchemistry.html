@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- saved from url=(0079)https://cardadfar.github.io/stuco_webdev_website/assets/files/html_starter.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shaelyn Parker Personal Website</title>                           <!-- Give Title -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet" type="text/css">  <!-- Insert StyleSheet -->
+    <link rel="icon" href="https://cardadfar.github.io/stuco_webdev_website/assets/files/cool-icon.png">                    <!-- Insert Icon -->
+  
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="gallerysongs.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html"></a></li>
+                <li><a href="index.html"></a></li>
+                <li><a href="index.html"></a></li>
+                <li><a href="index.html"></a></li>
+                <li><a href="index.html"></a></li>
+                <li><a href="index.html"></a></li>
+                <li><a href="index.html"></a></li>
+                <li><a href="index.html"></a></li>
+                <li><a href="index.html"></a></li>
+                <li><a href="index.html"></a></li>
+                <li><a href="index.html"></a></li>
+                <li><a href="index.html"></a></li>
+                <li><a href="index.html"></a></li>
+                <li><a href="index.html">Shaelyn Parker</a></li>
+            </ul>         
+        </nav>
+    </header>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        window.Jquery ||
+            document.write(<script src=“/directory/of/jquery/file/jquery.min.js"></script>)
+    </script>
+
+
+</head>
+<body>
+    
+    <main>
+
+        <contacth class="contacth">Carnegie Mellon University</contacth>
+        <contacth class="contacth contacth2">Chemistry/Biological Chemistry Track, Class of 2021</contacth>
+
+        <!-- Code for dropdown menu taken and modified from w3Schools.com -->
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Browse Courses</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="educationchemistry.html">Chemistry Courses</a>
+                <a href="educationcomputerscience.html">Computer Science Courses</a>
+                <a href="educationother.html">Other Courses</a>
+            </div>
+        </div>
+
+
+        <script>
+        /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+
+        </script>    <!-- Insert JQuery Script -->
+
+        <table class="tablewrap">
+            <tr>
+                <th class="mailingtext mailingtext-fancy">Course Number</th>
+                <th class="mailingtext mailingtext-fancy">Course Title</th> 
+                <th class="mailingtext mailingtext-fancy">Units</th>
+            </tr>
+            <tr>
+                <td class="mailingtext">09-107</td>
+                <td class="mailingtext">Honors Chemistry</td> 
+                <td class="mailingtext">10.0</td>
+            </tr>
+            <tr>
+                <td class="mailingtext">09-510</td>
+                <td class="mailingtext">Chemistry & Sustainability</td> 
+                <td class="mailingtext">9.0</td>
+            </tr>
+            <tr>
+                <td class="mailingtext">09-219</td>
+                <td class="mailingtext">Modern Organic Chemistry I</td> 
+                <td class="mailingtext">10.0</td>
+            </tr>
+            <tr>
+                <td class="mailingtext">09-221</td>
+                <td class="mailingtext">Lab I: Introduction to Chemistry Analysis</td> 
+                <td class="mailingtext">9.0</td>
+            </tr>
+        </table>
+
+
+    </main>
+</body>
+<footer>
+        <li><a href="https://www.youtube.com/channel/UCGh7Kr0l7mIjdTR_AxoSC9A?view_as=subscriber">Youtube<br></a></li>
+        <li><a href="https://www.instagram.com/sparker428/">Instagram<br></a></li>
+        <li><a href="https://twitter.com/sparker428">Twitter<br></a></li>
+        <li><a href="index.html"><br></a></li>
+        <li><a href="index.html"><br></a></li>
+        <li><a href="index.html"><br></a></li>
+        <li><a href="index.html"><br></a></li>
+        <li><a href="index.html"><br></a></li>
+        <li><a href="index.html"><br></a></li>
+        <li><a href="https://cardadfar.github.io/stuco_webdev_website/">98-177: Building Personal Websites Spring 2019<br></a></li>
+              
+</footer>
+</html>
